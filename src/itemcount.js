@@ -1,7 +1,5 @@
-export const fontstyle = () => {
-  document.getElementById('number').style.fontWeight = '500';
-};
+export const items = (item) => item;
 
 export const countitem = (item) => {
-  document.getElementById('number').innerHTML = item;
+  document.getElementById('number').innerHTML = items(item);
 };

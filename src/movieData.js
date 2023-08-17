@@ -3,7 +3,7 @@ import {
   myid, url, addlikes, getLikes,
 } from './like.js';
 
-import { countitem } from './itemcount.js';
+import { countitem, items } from './itemcount.js';
 
 const sourceUrl = 'https://api.tvmaze.com/shows/';
 
@@ -48,7 +48,7 @@ export const collect = async (element) => {
     }
   });
 
-  countitem(element);
+  countitem(items(element));
 };
 
 const total = 15;
