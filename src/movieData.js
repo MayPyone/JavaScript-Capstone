@@ -39,7 +39,7 @@ export const collect = async (element) => {
   shows.append(imageWrapper);
 };
 
-const total = 14;
+const total = 15;
 export const show = () => {
   for (let i = 1; i <= total; i += 1) {
     collect(i);
