@@ -3,6 +3,8 @@ import {
   myid, url, addlikes, getLikes,
 } from './like.js';
 
+import { countitem } from './itemcount.js';
+
 const sourceUrl = 'https://api.tvmaze.com/shows/';
 
 export const collect = async (element) => {
@@ -45,6 +47,8 @@ export const collect = async (element) => {
       num.innerHTML = `${likenum.likes += 1} likes`;
     }
   });
+
+  countitem(element);
 };
 
 const total = 15;
