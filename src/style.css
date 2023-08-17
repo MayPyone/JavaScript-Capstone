@@ -61,6 +61,11 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin: 3%;
+  color: red;
+}
+
+.action .wrapper:active {
+  background-color: red;
 }
 
 .number {
