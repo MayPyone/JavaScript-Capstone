@@ -52,4 +52,18 @@ export const popup=(data,element)=>{
     area.placeholder="Your insights";
     area.classList.add('area');
     form.append(area);
+    const pop_comment = document.createElement('button');
+    pop_comment.innerHTML="Comment";
+    pop_comment.className="pop_comment";
+    form.append(pop_comment);
+
+    cross_button.appendChild(cross_icon);
+    section.append(image);
+    section.append(cross_button);
+    section.append(title);
+    section.append(list);
+    section.append(comment);
+    section.append(commentbox);
+    section.append(form);
+    container.append(section);  
 }
