@@ -71,3 +71,8 @@ footer {
 .number {
   text-align: right;
 }
+.section img {
+  display: flex;
+  height: 350px;
+  margin: 2% auto;
+}
