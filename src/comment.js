@@ -4,3 +4,13 @@ export const create_comment = (id,name,comment)=> {
   headers: {
     'Content-type': 'application/json',
   },
+  body: JSON.stringify(
+    {
+        "item_id": `${id}`,
+        "username": `${name}`,
+        "comment": `${comment}`
+    }
+  ),
+})
+  .then((response) => response.json())
+}
