@@ -76,3 +76,13 @@ footer {
   height: 350px;
   margin: 2% auto;
 }
+.cross_button {
+  position: absolute;
+  left: 300px;
+}
+
+.cross {
+  position: absolute;
+  top: 20px;
+  right: 300px;
+}
