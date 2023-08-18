@@ -27,4 +27,11 @@ export const popup=(data,element)=>{
     div1.append(list2);
     div2.append(list3);
     div2.append(list4);
+    list.append(div1);
+    list.append(div2);
+
+    list1.innerHTML="Title : "+ data.name;
+    list2.innerHTML="Type : "+ data.type;
+    list3.innerHTML="Language : "+ data.language;
+    list4.innerHTML="Genre : "+ data.genres;
 }
