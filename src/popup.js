@@ -42,4 +42,14 @@ export const popup=(data,element)=>{
     commentbox.innerHTML="Comments ";
     commentbox.classList.add('commentbox');
     commentbox.classList.add('titlecount');
+    form_title.classList.add('comment');
+    const input_name= document.createElement('input');
+    input_name.placeholder="Your name";
+    const form = document.createElement('form');
+    form.append(form_title);
+    form.append(input_name);
+    const area = document.createElement('textarea');
+    area.placeholder="Your insights";
+    area.classList.add('area');
+    form.append(area);
 }
