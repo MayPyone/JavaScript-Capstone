@@ -47,8 +47,19 @@ export const collect = async (element) => {
       num.innerHTML = `${likenum.likes += 1} likes`;
     }
   });
+ //popup
+ countitem(items(element));
+ button.addEventListener('click',(e)=>{
+  if(e.target.tagName==='BUTTON'){
+  //  let num =data.id;
+   popup(data,element);
+ 
+}
+}
 
-  countitem(items(element));
+)
+
+ 
 };
 
 const total = 15;
