@@ -34,4 +34,12 @@ export const popup=(data,element)=>{
     list2.innerHTML="Type : "+ data.type;
     list3.innerHTML="Language : "+ data.language;
     list4.innerHTML="Genre : "+ data.genres;
+    const comment = document.createElement('span');
+    comment.classList.add('titlecount');
+    comment.classList.add('comment');
+    comment.innerHTML="Comments "+ element;
+    const commentbox = document.createElement('div');
+    commentbox.innerHTML="Comments ";
+    commentbox.classList.add('commentbox');
+    commentbox.classList.add('titlecount');
 }
