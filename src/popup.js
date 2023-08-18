@@ -27,6 +27,7 @@ export const popup=(data,element)=>{
     div1.append(list2);
     div2.append(list3);
     div2.append(list4);
+
     list.append(div1);
     list.append(div2);
 
@@ -34,6 +35,7 @@ export const popup=(data,element)=>{
     list2.innerHTML="Type : "+ data.type;
     list3.innerHTML="Language : "+ data.language;
     list4.innerHTML="Genre : "+ data.genres;
+
     const comment = document.createElement('span');
     comment.classList.add('titlecount');
     comment.classList.add('comment');
@@ -42,6 +44,9 @@ export const popup=(data,element)=>{
     commentbox.innerHTML="Comments ";
     commentbox.classList.add('commentbox');
     commentbox.classList.add('titlecount');
+    const form_title= document.createElement('span');
+    form_title.innerHTML="Add a comment";
+    form_title.classList.add('titlecount');
     form_title.classList.add('comment');
     const input_name= document.createElement('input');
     input_name.placeholder="Your name";
@@ -52,6 +57,7 @@ export const popup=(data,element)=>{
     area.placeholder="Your insights";
     area.classList.add('area');
     form.append(area);
+    
     const pop_comment = document.createElement('button');
     pop_comment.innerHTML="Comment";
     pop_comment.className="pop_comment";

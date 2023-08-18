@@ -4,6 +4,7 @@ import {
 } from './like.js';
 
 import { countitem, items } from './itemcount.js';
+import { popup } from './popup.js';
 
 const sourceUrl = 'https://api.tvmaze.com/shows/';
 
