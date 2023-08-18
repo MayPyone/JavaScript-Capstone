@@ -86,3 +86,14 @@ footer {
   top: 20px;
   right: 300px;
 }
+.titlecount {
+  display: flex;
+  font-size: 30px;
+  color: black;
+  justify-content: center;
+}
+
+.comment {
+  margin-top: 1%;
+  font-size: 22px;
+}
