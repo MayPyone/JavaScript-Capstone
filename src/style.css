@@ -97,3 +97,19 @@ footer {
   margin-top: 1%;
   font-size: 22px;
 }
+.commentbox {
+  font-size: 15px;
+  margin: 1% auto;
+  padding: 1%;
+  border: 1px solid black;
+  width: 50%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
