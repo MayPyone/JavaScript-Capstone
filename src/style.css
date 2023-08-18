@@ -113,3 +113,31 @@ form {
   width: 50%;
   margin: 0 auto;
 }
+input {
+  width: 30%;
+}
+
+.area {
+  width: 40%;
+  height: 100px;
+  padding: 2%;
+}
+
+.pop_comment {
+  width: 20%;
+  background-color: red;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: left;
+  gap: 40px;
+  font-size: 20px;
+}
+
+li {
+  list-style-type: none;
+}
