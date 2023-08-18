@@ -71,21 +71,30 @@ footer {
 .number {
   text-align: right;
 }
+
+.pop {
+  align-items: center;
+  padding: 1%;
+  background-color: rgb(240, 197, 240);
+}
+
 .section img {
   display: flex;
   height: 350px;
   margin: 2% auto;
 }
+
 .cross_button {
   position: absolute;
   left: 300px;
 }
 
-.cross {
+.close {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 300px;
 }
+
 .titlecount {
   display: flex;
   font-size: 30px;
@@ -97,12 +106,20 @@ footer {
   margin-top: 1%;
   font-size: 22px;
 }
+
 .commentbox {
+  display: flex;
+  flex-direction: column;
   font-size: 15px;
   margin: 1% auto;
   padding: 1%;
   border: 1px solid black;
   width: 50%;
+}
+
+.c_span {
+  display: flex;
+  flex-direction: column;
 }
 
 form {
@@ -113,6 +130,7 @@ form {
   width: 50%;
   margin: 0 auto;
 }
+
 input {
   width: 30%;
 }
@@ -125,7 +143,6 @@ input {
 
 .pop_comment {
   width: 20%;
-  background-color: red;
 }
 
 ul {
@@ -140,4 +157,9 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
 }
