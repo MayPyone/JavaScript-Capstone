@@ -11,6 +11,7 @@ const sourceUrl = 'https://api.tvmaze.com/shows/';
 export const collect = async (element) => {
   addlikes(element);
   const likenum = await getLikes(element - 1);
+  const head = document.querySelector('.header');
   const shows = document.querySelector('.shows');
   const response = await fetch(`https://api.tvmaze.com/shows/${element}`);
   const data = await response.json();
@@ -27,6 +28,7 @@ export const collect = async (element) => {
   num.innerHTML = `${likenum.likes} likes`;
   const divbut = document.createElement('div');
   const button = document.createElement('button');
+  button.className = 'comment';
   button.innerHTML = 'Comments';
   const icon = document.createElement('i');
   const wrapper = document.createElement('button');
@@ -48,19 +50,15 @@ export const collect = async (element) => {
       num.innerHTML = `${likenum.likes += 1} likes`;
     }
   });
- //popup
- countitem(items(element));
- button.addEventListener('click',(e)=>{
-  if(e.target.tagName==='BUTTON'){
-  //  let num =data.id;
-   popup(data,element);
- 
-}
-}
 
-)
+  countitem(items(element));
 
- 
+  // popup
+  button.addEventListener('click', (e) => {
+    if (e.target.tagName === 'BUTTON') {
+      popup(data, element);
+    }
+  });
 };
 
 const total = 15;
