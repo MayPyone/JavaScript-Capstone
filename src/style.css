@@ -103,8 +103,10 @@ footer {
 }
 
 .comment {
+  display: flex;
   margin-top: 1%;
   font-size: 22px;
+  justify-content: center;
 }
 
 .commentbox {
