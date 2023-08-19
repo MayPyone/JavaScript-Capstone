@@ -112,7 +112,7 @@ Choose the browser you wish.
 - Twitter: [@twitterhandle](https://twitter.com/maypyone015)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/may-pyone-9439961a3/)
 
-👤 **Author1**
+👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/samuelkinyanjui)
 - Twitter: [@twitterhandle](https://twitter.com/samuel-k)
