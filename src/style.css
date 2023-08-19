@@ -1,0 +1,167 @@
+body {
+  font-family: 'Merriweather', serif;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.headlist {
+  width: 70%;
+  justify-content: space-around;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.logo {
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.show a {
+  color: black;
+  font-weight: bold;
+}
+
+.headlist a:hover {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+footer {
+  position: absolute;
+  margin-left: 2%;
+  background-color: rgb(155, 155, 238);
+}
+
+.shows {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  background-color: pink;
+}
+
+.show {
+  margin: 3% 1%;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(191, 64, 191);
+  color: black;
+  padding-bottom: 0.5%;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3%;
+  color: red;
+}
+
+.action .wrapper:active {
+  background-color: red;
+}
+
+.number {
+  text-align: right;
+}
+
+.pop {
+  align-items: center;
+  padding: 1%;
+  background-color: rgb(240, 197, 240);
+}
+
+.section img {
+  display: flex;
+  height: 350px;
+  margin: 2% auto;
+}
+
+.cross_button {
+  position: absolute;
+  left: 300px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 300px;
+}
+
+.titlecount {
+  display: flex;
+  font-size: 30px;
+  color: black;
+  justify-content: center;
+}
+
+.comment {
+  display: flex;
+  margin-top: 1%;
+  font-size: 22px;
+  justify-content: center;
+}
+
+.commentbox {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin: 1% auto;
+  padding: 1%;
+  border: 1px solid black;
+  width: 50%;
+}
+
+.c_span {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+input {
+  width: 30%;
+}
+
+.area {
+  width: 40%;
+  height: 100px;
+  padding: 2%;
+}
+
+.pop_comment {
+  width: 20%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: left;
+  gap: 40px;
+  font-size: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+}
